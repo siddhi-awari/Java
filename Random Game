@@ -1,12 +1,14 @@
 class Main {
         public static void main (String[]args)
         {
+            int Num=0;
             while (true) {
                 int num = (int) (Math.random() * 10 + 1);
                 if (num == 5) {
                     break;
                 }
-                System.out.print(num);
+                Num=num;
             }
+            System.out.println(Num);
         }
 }
