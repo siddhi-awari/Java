@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[] arr= {5,4,3,2,1};
+        int key = 2;
+
+        boolean found= false;
+        for(int num: arr)
+        {
+           if(num==key)
+           {
+               found = true;
+               break;
+           }
+        }
+
+        if(found)
+        {
+            System.out.print("Found");
+        }
+        else
+        {
+            System.out.print("Not Found");
+        }
+    }
+}
