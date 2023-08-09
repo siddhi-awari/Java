@@ -3,12 +3,12 @@ class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr= {5,4,3,2,1};
-        int key = 2;
+        int key = 2;//number to be searched
 
         boolean found= false;
-        for(int num: arr)
+        for(int num: arr)// Code to be executed for each element
         {
-           if(num==key)
+           if(num==key) //num are all the elements in an array
            {
                found = true;
                break;
